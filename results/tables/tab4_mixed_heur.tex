@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Эвристики против BestFit}
+\label{tab:heur}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lll}
+\toprule
+Политика & \(-\) BestFit, п.п. [95\% ДИ] & Л/Р/Х \\
+\midrule
+FirstFit & \(-\)0.00 [\(-\)0.01; \(+\)0.01] & 173/418/185 \\
+BestFit по GPU & \(-\)0.01 [\(-\)0.02; \(+\)0.01] & 179/413/184 \\
+DotProd & \(+\)0.01 [\(-\)0.00; \(+\)0.02] & 125/496/155 \\
+Packing & \(-\)0.00 [\(-\)0.02; \(+\)0.01] & 160/446/170 \\
+Random & \(+\)1.03 [\(-\)0.82; \(+\)2.95] & 453/17/306 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\par\smallskip
+\parbox{0.95\textwidth}{\footnotesize Разница \(U_{100}\) с BestFit по всем 776 блокам. Л/Р/Х: число блоков, где эвристика лучше, равна и хуже BestFit.}
+\end{table}

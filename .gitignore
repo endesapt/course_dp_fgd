@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# raw / generated data
+data/trace-gpu-v2020/raw/
+data/trace-gpu-v2020/blocks_*/
+data/trace-gpu-v2020/derived*/
+
+# generated run artifacts (aggregates are committed)
+results/smoke/
+results/gang_runs/
+results/cell_demo/
+results/pai_l1_v2/
+results/pai_mixed*/
+results/pai_f1*/

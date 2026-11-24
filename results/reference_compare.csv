@@ -1,0 +1,7 @@
+policy,seeds,ours_unalloc_100,paper_unalloc_100,ours_unalloc_130,paper_unalloc_130,diff_100_pp
+fgd_q,4,5.05,4.77,4.83,4.6,0.28
+bestfit,4,7.21,7.09,6.99,6.89,0.12
+packing,5,9.08,8.19,8.8,7.94,0.89
+dotprod,5,10.71,9.44,10.46,9.2,1.27
+clustering,5,6.92,8.42,6.69,8.21,-1.5
+random,5,13.72,13.75,12.89,12.62,-0.03

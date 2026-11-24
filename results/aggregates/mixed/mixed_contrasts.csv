@@ -1,0 +1,61 @@
+family,contrast,scope,n,mean_pp,ci_lo,ci_hi,p_boot,rel_pct,wins,ties,losses,source,p_holm
+policy,DP - aBF,ALL,776,-5.9477,-6.5540,-5.3131,0.0000,-47.2691,665,100,11,mixed_cells.csv,0.0000
+policy,DP - aBF,MISC,501,-7.8977,-8.1407,-7.6571,0.0000,-49.2179,500,1,0,mixed_cells.csv,
+policy,DP - aBF,V100,154,-3.1646,-3.6682,-2.6299,0.0000,-42.4329,107,41,6,mixed_cells.csv,
+policy,DP - aBF,V100M32,121,-1.4160,-1.8101,-1.0218,0.0000,-29.7259,58,58,5,mixed_cells.csv,
+policy,seq - aBF,ALL,776,-4.6252,-5.1512,-4.0871,0.0000,-36.7585,637,110,29,mixed_cells.csv,0.0000
+policy,seq - aBF,MISC,501,-6.3492,-6.5796,-6.1284,0.0000,-39.5678,500,1,0,mixed_cells.csv,
+policy,seq - aBF,V100,154,-2.1756,-2.5726,-1.7624,0.0000,-29.1715,97,35,22,mixed_cells.csv,
+policy,seq - aBF,V100M32,121,-0.6047,-0.8892,-0.3491,0.0000,-12.6943,40,74,7,mixed_cells.csv,
+policy,DP - seq,ALL,776,-1.3225,-1.5277,-1.1164,0.0000,-16.6198,495,135,146,mixed_cells.csv,0.0000
+policy,DP - seq,MISC,501,-1.5485,-1.7755,-1.3157,0.0000,-15.9684,377,9,115,mixed_cells.csv,
+policy,DP - seq,V100,154,-0.9890,-1.5021,-0.4526,0.0005,-18.7233,75,53,26,mixed_cells.csv,
+policy,DP - seq,V100M32,121,-0.8113,-1.1970,-0.5267,0.0000,-19.5080,43,73,5,mixed_cells.csv,
+heuristic,FirstFit - aBF,ALL,776,-0.0018,-0.0137,0.0102,0.7880,-0.0144,173,418,185,mixed_cells.csv,1.0000
+heuristic,FirstFit - aBF,MISC,501,-0.0001,-0.0170,0.0157,0.9900,-0.0006,164,164,173,mixed_cells.csv,
+heuristic,FirstFit - aBF,V100,154,-0.0082,-0.0367,0.0171,0.5530,-0.1097,8,134,12,mixed_cells.csv,
+heuristic,FirstFit - aBF,V100M32,121,-0.0008,-0.0027,0.0000,0.7335,-0.0173,1,120,0,mixed_cells.csv,
+heuristic,BestFit-GPU - aBF,ALL,776,-0.0055,-0.0183,0.0072,0.3960,-0.0437,179,413,184,mixed_cells.csv,1.0000
+heuristic,BestFit-GPU - aBF,MISC,501,-0.0063,-0.0242,0.0107,0.4900,-0.0393,171,158,172,mixed_cells.csv,
+heuristic,BestFit-GPU - aBF,V100,154,-0.0192,-0.0444,0.0019,0.0785,-0.2569,7,139,8,mixed_cells.csv,
+heuristic,BestFit-GPU - aBF,V100M32,121,0.0152,-0.0008,0.0402,0.1435,0.3192,1,116,4,mixed_cells.csv,
+heuristic,DotProd - aBF,ALL,776,0.0093,-0.0008,0.0191,0.0750,0.0735,125,496,155,mixed_cells.csv,0.3750
+heuristic,DotProd - aBF,MISC,501,0.0119,-0.0022,0.0249,0.0955,0.0740,122,231,148,mixed_cells.csv,
+heuristic,DotProd - aBF,V100,154,-0.0016,-0.0156,0.0142,0.7755,-0.0209,3,147,4,mixed_cells.csv,
+heuristic,DotProd - aBF,V100M32,121,0.0121,0.0000,0.0370,0.2400,0.2550,0,118,3,mixed_cells.csv,
+heuristic,Packing - aBF,ALL,776,-0.0030,-0.0154,0.0089,0.6335,-0.0240,160,446,170,mixed_cells.csv,1.0000
+heuristic,Packing - aBF,MISC,501,-0.0010,-0.0169,0.0144,0.8960,-0.0060,153,188,160,mixed_cells.csv,
+heuristic,Packing - aBF,V100,154,-0.0246,-0.0497,-0.0039,0.0125,-0.3300,7,141,6,mixed_cells.csv,
+heuristic,Packing - aBF,V100M32,121,0.0160,0.0000,0.0403,0.0655,0.3348,0,117,4,mixed_cells.csv,
+heuristic,Random - aBF,ALL,776,1.0328,-0.8229,2.9523,0.3155,8.2080,453,17,306,mixed_cells.csv,1.0000
+heuristic,Random - aBF,MISC,501,-4.5866,-5.0899,-4.0820,0.0000,-28.5837,434,0,67,mixed_cells.csv,
+heuristic,Random - aBF,V100,154,5.3931,4.4855,6.2803,0.0000,72.3139,16,10,128,mixed_cells.csv,
+heuristic,Random - aBF,V100M32,121,18.7504,16.5797,21.0864,0.0000,393.6155,3,7,111,mixed_cells.csv,
+m_cost,DP: prev - oracle,ALL,773,0.0917,-0.0102,0.1862,0.0715,1.3839,271,204,298,mixed_cells.csv,0.1430
+m_cost,DP: prev - oracle,MISC,500,0.0510,-0.0402,0.1397,0.2610,0.6262,229,33,238,mixed_cells.csv,
+m_cost,DP: prev - oracle,V100,153,0.1429,-0.1872,0.4536,0.3770,3.3206,30,85,38,mixed_cells.csv,
+m_cost,DP: prev - oracle,V100M32,120,0.1964,-0.0471,0.5132,0.1495,5.9598,12,86,22,mixed_cells.csv,
+m_cost,seq: prev - oracle,ALL,773,0.1066,-0.0952,0.3599,0.3400,1.3396,320,139,314,mixed_cells.csv,0.3400
+m_cost,seq: prev - oracle,MISC,500,-0.1332,-0.2840,0.0154,0.0715,-1.3743,262,8,230,mixed_cells.csv,
+m_cost,seq: prev - oracle,V100,153,0.9951,0.2102,1.9354,0.0090,18.7986,35,55,63,mixed_cells.csv,
+m_cost,seq: prev - oracle,V100M32,120,-0.0273,-0.2032,0.1548,0.7640,-0.6588,23,76,21,mixed_cells.csv,
+m_cost,DP: uniform - oracle,ALL,776,-0.4389,-0.6307,-0.2434,0.0000,-6.6156,380,189,207,mixed_cells.csv,0.0000
+m_cost,DP: uniform - oracle,MISC,501,-0.9003,-1.0607,-0.7453,0.0000,-11.0482,339,28,134,mixed_cells.csv,
+m_cost,DP: uniform - oracle,V100,154,0.6703,0.3120,1.0104,0.0000,15.6132,20,72,62,mixed_cells.csv,
+m_cost,DP: uniform - oracle,V100M32,121,0.0594,-0.2552,0.3705,0.6740,1.7750,21,89,11,mixed_cells.csv,
+m_cost,seq: uniform - oracle,ALL,776,1.3622,1.1170,1.5940,0.0000,17.1188,157,118,501,mixed_cells.csv,0.0000
+m_cost,seq: uniform - oracle,MISC,501,1.6793,1.4544,1.8972,0.0000,17.3173,104,4,393,mixed_cells.csv,
+m_cost,seq: uniform - oracle,V100,154,1.7745,1.3360,2.1819,0.0000,33.5927,22,37,95,mixed_cells.csv,
+m_cost,seq: uniform - oracle,V100M32,121,-0.4753,-0.8919,-0.0354,0.0295,-11.4282,31,77,13,mixed_cells.csv,
+whole,whole DP - aBF,ALL,471,-1.9823,-2.3242,-1.6698,0.0000,-48.8255,326,129,16,pai_l1_v2_all_cells.csv,0.0000
+whole,whole DP - aBF,MISC,224,-2.6207,-3.0756,-2.1929,0.0000,-78.0939,204,18,2,pai_l1_v2_all_cells.csv,
+whole,whole DP - aBF,V100,132,-1.7166,-2.1780,-1.2646,0.0000,-31.1490,82,41,9,pai_l1_v2_all_cells.csv,
+whole,whole DP - aBF,V100M32,115,-1.0438,-1.4518,-0.6531,0.0000,-27.7158,40,70,5,pai_l1_v2_all_cells.csv,
+whole,whole seq - aBF,ALL,471,-1.7736,-2.1216,-1.4468,0.0000,-43.6850,314,120,37,pai_l1_v2_all_cells.csv,0.0000
+whole,whole seq - aBF,MISC,224,-2.4749,-2.9309,-2.0350,0.0000,-73.7479,203,15,6,pai_l1_v2_all_cells.csv,
+whole,whole seq - aBF,V100,132,-1.5489,-2.0673,-1.0280,0.0000,-28.1068,78,27,27,pai_l1_v2_all_cells.csv,
+whole,whole seq - aBF,V100M32,115,-0.6656,-0.9734,-0.3814,0.0000,-17.6722,33,78,4,pai_l1_v2_all_cells.csv,
+whole,whole DP - seq,ALL,471,-0.2087,-0.4065,-0.0287,0.0280,-9.1281,177,238,56,pai_l1_v2_all_cells.csv,0.0280
+whole,whole DP - seq,MISC,224,-0.1458,-0.2327,-0.0562,0.0015,-16.5552,108,94,22,pai_l1_v2_all_cells.csv,
+whole,whole DP - seq,V100,132,-0.1677,-0.7263,0.4136,0.5810,-4.2315,50,54,28,pai_l1_v2_all_cells.csv,
+whole,whole DP - seq,V100M32,115,-0.3783,-0.8067,-0.0994,0.0000,-12.1996,19,90,6,pai_l1_v2_all_cells.csv,

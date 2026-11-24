@@ -1,0 +1,90 @@
+{
+  "group_size_histogram": {
+    "1": 3864,
+    "2": 55,
+    "3": 4
+  },
+  "n_groups": 3923,
+  "n_whole_pods": 3986,
+  "note": "Grouping rule = same (creation_time, cpu_milli, num_gpu). These are NOT verified production gangs: natural co-arrival is near-singleton and second-granularity grouping is a LOWER bound on real gang structure.",
+  "pods_in_groups_gt1": 122,
+  "schema_version": 2,
+  "share_pods_in_groups_gt1": 0.030607124937280482,
+  "top_classes": [
+    {
+      "cpu_milli": 11300,
+      "gpu_demand": 1.0,
+      "pods": 874
+    },
+    {
+      "cpu_milli": 11400,
+      "gpu_demand": 1.0,
+      "pods": 599
+    },
+    {
+      "cpu_milli": 3152,
+      "gpu_demand": 1.0,
+      "pods": 470
+    },
+    {
+      "cpu_milli": 12000,
+      "gpu_demand": 1.0,
+      "pods": 326
+    },
+    {
+      "cpu_milli": 18708,
+      "gpu_demand": 1.0,
+      "pods": 255
+    },
+    {
+      "cpu_milli": 9810,
+      "gpu_demand": 1.0,
+      "pods": 195
+    },
+    {
+      "cpu_milli": 8000,
+      "gpu_demand": 1.0,
+      "pods": 164
+    },
+    {
+      "cpu_milli": 4000,
+      "gpu_demand": 1.0,
+      "pods": 159
+    },
+    {
+      "cpu_milli": 15700,
+      "gpu_demand": 1.0,
+      "pods": 158
+    },
+    {
+      "cpu_milli": 11908,
+      "gpu_demand": 1.0,
+      "pods": 153
+    },
+    {
+      "cpu_milli": 16000,
+      "gpu_demand": 1.0,
+      "pods": 150
+    },
+    {
+      "cpu_milli": 14200,
+      "gpu_demand": 1.0,
+      "pods": 93
+    },
+    {
+      "cpu_milli": 24200,
+      "gpu_demand": 1.0,
+      "pods": 84
+    },
+    {
+      "cpu_milli": 11900,
+      "gpu_demand": 1.0,
+      "pods": 55
+    },
+    {
+      "cpu_milli": 8200,
+      "gpu_demand": 1.0,
+      "pods": 41
+    }
+  ]
+}

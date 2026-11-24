@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Сравнение политик по доменам}
+\label{tab:mixedmain}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lrrrrll}
+\toprule
+Домен & Блоков & BestFit & FGD-посл. & DP-FGD & DP-FGD \(-\) BestFit, п.п. [95\% ДИ] & Л/Р/Х \\
+\midrule
+MISC & 501 & 16.05 & 9.70 & 8.15 & \(-\)7.90 [\(-\)8.14; \(-\)7.66] & 500/1/0 \\
+V100 & 154 & 7.46 & 5.28 & 4.29 & \(-\)3.16 [\(-\)3.67; \(-\)2.63] & 107/41/6 \\
+V100M32 & 121 & 4.76 & 4.16 & 3.35 & \(-\)1.42 [\(-\)1.81; \(-\)1.02] & 58/58/5 \\
+\midrule
+все блоки & 776 & 12.58 & 7.96 & 6.63 & \(-\)5.95 [\(-\)6.55; \(-\)5.31] & 665/100/11 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\par\smallskip
+\parbox{0.95\textwidth}{\footnotesize \(U_{100}\) в \% ёмкости, средние по блокам, где есть все три политики. Л/Р/Х: число блоков, где DP-FGD лучше, равен и хуже BestFit. В скобках 95\% ДИ.}
+\end{table}

@@ -1,0 +1,99 @@
+claim_id,chapter,claim,value,unit,source_file,filter,used_in
+C01,4.1,DP vs seqFGD mean delta,-0.209,pp,results/aggregates/coursework/dp_vs_fgd_blocks.csv,signal domains,text/fig4_dp_vs_fgd_scatter2
+C02,4.1,DP vs seqFGD W/T/L,177/238/56,count,results/aggregates/coursework/dp_vs_fgd_blocks.csv,signal domains,text/fig4_dp_vs_fgd_scatter2
+C03,4.1,DP vs atomicFGD mean delta,-0.808,pp,results/aggregates/coursework/dp_vs_fgd_blocks.csv,signal domains,text/fig4_dp_vs_fgd_hist_int
+C04,4.1,DP vs atomicFGD W/T/L,281/148/42,count,results/aggregates/coursework/dp_vs_fgd_blocks.csv,signal domains,text/fig4_dp_vs_fgd_hist_int
+C05,4.1,PAI signal aBF unalloc100,4.060,percent,results/aggregates/pai_l1_v2/core_summary_by_domain.csv,M_stream signal3,text/test1
+C06,4.1,PAI signal DP unalloc100,2.078,percent,results/aggregates/pai_l1_v2/core_summary_by_domain.csv,M_stream signal3,text/test1
+C07,4.1,PAI DP relative reduction,-48.8,percent,results/aggregates/pai_l1_v2/core_summary_by_domain.csv,derived,text/test1
+C08,4.1,P100 aBF unalloc100,1.359,percent,results/aggregates/pai_l1_v2/core_summary_by_domain.csv,P100 all policies,text/test1
+C09,4.1,T4 aBF unalloc100,0.692,percent,results/aggregates/pai_l1_v2/core_summary_by_domain.csv,T4 all policies,text/test1
+C10,4.2,Queue vs ideal mean wait,-19.9,percent,results/aggregates/coursework/m_arms_summary.csv,full_window queue,text/fig4_m_arms2
+C11,4.2,Queue vs ideal p90 wait,-59.3,percent,results/aggregates/coursework/m_arms_summary.csv,full_window queue,text/fig4_m_arms2
+C12,4.2,Past vs ideal mean wait,-15.7,percent,results/aggregates/coursework/m_arms_summary.csv,full_window past,text/fig4_m_arms2
+C13,4.2,Smoothed vs ideal mean wait,-16.0,percent,results/aggregates/coursework/m_arms_summary.csv,full_window smoothed,text/fig4_m_arms2
+C14,4.2,Future vs ideal mean wait,-14.2,percent,results/aggregates/coursework/m_arms_summary.csv,full_window future,text/fig4_m_arms2
+C15,4.2,Future vs ideal p90 wait,-37.0,percent,results/aggregates/coursework/m_arms_summary.csv,full_window future,text/fig4_m_arms2
+C16,4.2,Future starvation,22.3,percent of capacity-hours,results/churn/s2_future/churn_summary.csv,slide_lead:86400 full window,text/fig4_m_arms2
+C17,4.2,Weekly queue0.5 median regret,0.0,percent,results/aggregates/coursework/m_arms_summary.csv,weekly queue,text/fig4_m_variability
+C18,4.2,Weekly queue0.5 max regret,3.6,percent,results/aggregates/coursework/m_arms_summary.csv,weekly queue,text/fig4_m_variability
+C19,4.2,Weekly queue1 max regret,225.3,percent,results/aggregates/coursework/m_arms_summary.csv,weekly queue1,text/fig4_m_variability
+C20,4.2,Weekly smoothed max regret,13.7,percent,results/aggregates/coursework/m_arms_summary.csv,weekly smoothed,text/fig4_m_variability
+C21,4.3,7-day cell aBF wait,10.2,s,results/aggregates/pai_l1_v2/continuous_informative.csv,10-17 V100 ds1.8,text/fig4_external
+C22,4.3,7-day cell DP+queue05 wait,76.7,s,results/aggregates/pai_l1_v2/continuous_informative.csv,10-17 V100 ds1.8,text/fig4_external
+C23,4.3,3-day V100 aBF wait,241.75,s,results/aggregates/pai_l1_v2/batch4b_summary.csv,V100 33:36 ds3.0 arm=stream,text/fig4_external
+C24,4.3,3-day V100 DP wait,200.15,s,results/aggregates/pai_l1_v2/batch4b_summary.csv,V100 33:36 ds3.0 arm=stream,text/fig4_external
+C25,4.3,3-day V100M32 aBF wait,664.05,s,results/aggregates/pai_l1_v2/batch4b_summary.csv,V100M32 46:49 ds3.0 arm=stream,text/fig4_external
+C26,4.3,3-day V100M32 DP wait,578.4,s,results/aggregates/pai_l1_v2/batch4b_summary.csv,V100M32 46:49 ds3.0 arm=stream,text/fig4_external
+C27,4.3,Max starvation 4b,0.544,percent of capacity-hours,results/aggregates/pai_l1_v2/batch4b_summary.csv,max over cells,text/test3
+C28,4.3,Max starvation 4d,0.323,percent of capacity-hours,results/aggregates/pai_l1_v2/batch4d_summary.csv,max over cells,text/test3
+C35,4.2,P90/mean ideal,2.14,ratio,results/aggregates/coursework/m_arms_summary.csv,full_window ideal,text/fig4_m_arms2
+C36,4.2,P90/mean past,1.18,ratio,results/aggregates/coursework/m_arms_summary.csv,full_window past,text/fig4_m_arms2
+C37,4.2,P90/mean queue0.5,1.09,ratio,results/aggregates/coursework/m_arms_summary.csv,full_window queue,text/fig4_m_arms2
+C38,4.2,P90/mean future,1.57,ratio,results/aggregates/coursework/m_arms_summary.csv,full_window future,text/fig4_m_arms2
+C39,4.2,P90/mean smoothed,1.24,ratio,results/aggregates/coursework/m_arms_summary.csv,full_window smoothed,text/fig4_m_arms2
+C40,4.2,DP-FGD vs FGD-посл. advantage ideal,9.1,percent,results/aggregates/coursework/m_robustness_pairs.csv,ideal,text/fig4_m_degradation
+C41,4.2,DP-FGD vs FGD-посл. advantage prev,15.5,percent,results/aggregates/coursework/m_robustness_pairs.csv,prev,text/fig4_m_degradation
+C42,4.2,DP-FGD vs FGD-посл. advantage prefix50,23.5,percent,results/aggregates/coursework/m_robustness_pairs.csv,prefix50,text/fig4_m_degradation
+C43,4.2,FGD-посл. retention prev,74.7,percent,results/aggregates/coursework/m_robustness.csv,prev FGD-посл.,text/fig4_m_degradation
+C44,4.2,FGD-посл. retention prefix50,67.0,percent,results/aggregates/coursework/m_robustness.csv,prefix50 FGD-посл.,text/fig4_m_degradation
+C45,4.2,DP-FGD retention prev,88.2,percent,results/aggregates/coursework/m_robustness.csv,prev DP-FGD,text/fig4_m_degradation
+C46,4.2,DP-FGD retention prefix50,94.0,percent,results/aggregates/coursework/m_robustness.csv,prefix50 DP-FGD,text/fig4_m_degradation
+C47,4.2,FGD-цел. retention prev,65.1,percent,results/aggregates/coursework/m_robustness.csv,prev FGD-цел.,text/fig4_m_degradation
+C48,4.2,FGD-цел. retention prefix50,38.2,percent,results/aggregates/coursework/m_robustness.csv,prefix50 FGD-цел.,text/fig4_m_degradation
+C49,4.2,DP-FGD vs FGD-цел. advantage prefix50,39.2,percent,results/aggregates/coursework/m_robustness_pairs.csv,prefix50,text/fig4_m_degradation
+N01,3,mixed blocks per domain,502/154/122,count,results/aggregates/mixed/mixed_blocks.csv,MISC/V100/V100M32,tab3_blocks
+N02,3,fractional-gang share of block GPU demand,49.5/13.8/5.1,%,results/aggregates/mixed/mixed_blocks.csv,MISC/V100/V100M32 demand-weighted,tab3_blocks
+N03,1,fractional gangs share of gang GPU demand (blocks),55.2,%,results/aggregates/mixed/mixed_blocks.csv,all 778 blocks,text 1
+N04,4.1,"unalloc@100 aBF -> seq -> DP, MISC",16.05 -> 9.70 -> 8.15,%,results/aggregates/mixed/mixed_domain_means.csv,"MISC, oracle M",fig4_mixed_domains
+N05,4.1,"unalloc@100 aBF -> seq -> DP, V100",7.46 -> 5.28 -> 4.29,%,results/aggregates/mixed/mixed_domain_means.csv,"V100, oracle M",fig4_mixed_domains
+N06,4.1,"unalloc@100 aBF -> seq -> DP, V100M32",4.76 -> 4.16 -> 3.35,%,results/aggregates/mixed/mixed_domain_means.csv,"V100M32, oracle M",fig4_mixed_domains
+N07,4.1,mixed DP - aBF (ALL),"-5.95 [-6.55, -5.31]",pp,results/aggregates/mixed/mixed_contrasts.csv,"ALL, matched blocks, oracle M",fig4_mixed_domains
+N08,4.1,mixed DP - aBF W/T/L,665/100/11,count,results/aggregates/mixed/mixed_contrasts.csv,ALL,fig4_mixed_domains
+N09,4.1,mixed DP - aBF relative to subtrahend,-47,%,results/aggregates/mixed/mixed_contrasts.csv,ALL,fig4_mixed_domains
+N10,4.1,mixed DP - aBF by domain,-7.90/-3.16/-1.42,pp,results/aggregates/mixed/mixed_contrasts.csv,MISC/V100/V100M32,fig4_mixed_domains
+N11,4.2,mixed seq - aBF (ALL),"-4.63 [-5.15, -4.09]",pp,results/aggregates/mixed/mixed_contrasts.csv,"ALL, matched blocks, oracle M",fig4_mixed_split
+N12,4.2,mixed seq - aBF W/T/L,637/110/29,count,results/aggregates/mixed/mixed_contrasts.csv,ALL,fig4_mixed_split
+N13,4.2,mixed seq - aBF relative to subtrahend,-37,%,results/aggregates/mixed/mixed_contrasts.csv,ALL,fig4_mixed_split
+N14,4.2,mixed seq - aBF by domain,-6.35/-2.18/-0.60,pp,results/aggregates/mixed/mixed_contrasts.csv,MISC/V100/V100M32,fig4_mixed_split
+N15,4.2,mixed DP - seq (ALL),"-1.32 [-1.53, -1.12]",pp,results/aggregates/mixed/mixed_contrasts.csv,"ALL, matched blocks, oracle M",fig4_mixed_split
+N16,4.2,mixed DP - seq W/T/L,495/135/146,count,results/aggregates/mixed/mixed_contrasts.csv,ALL,fig4_mixed_split
+N17,4.2,mixed DP - seq relative to subtrahend,-17,%,results/aggregates/mixed/mixed_contrasts.csv,ALL,fig4_mixed_split
+N18,4.2,mixed DP - seq by domain,-1.55/-0.99/-0.81,pp,results/aggregates/mixed/mixed_contrasts.csv,MISC/V100/V100M32,fig4_mixed_split
+N19,4.2,share of DP gain from FGD score (seq - aBF)/(DP - aBF),78,%,results/aggregates/mixed/mixed_contrasts.csv,ALL,fig4_mixed_split
+N20,4.2,share of DP gain from joint placement (DP - seq)/(DP - aBF),22,%,results/aggregates/mixed/mixed_contrasts.csv,ALL,fig4_mixed_split
+N21,4.1,"max |heuristic - aBF| (FirstFit, BestFit-GPU, DotProd, Packing)",0.009,pp,results/aggregates/mixed/mixed_contrasts.csv,ALL,fig4_mixed_domains
+N22,4.1,Random - aBF,"+1.03 [-0.82, +2.95]",pp,results/aggregates/mixed/mixed_contrasts.csv,ALL,text 4.1
+N23,4.2,whole DP - aBF (whole-GPU blocks),"-1.98 [-2.32, -1.67]",pp,results/aggregates/mixed/mixed_contrasts.csv,"signal domains, whole-only core",not cited (former fig4_whole_vs_mixed)
+N24,4.2,whole seq - aBF (whole-GPU blocks),"-1.77 [-2.12, -1.45]",pp,results/aggregates/mixed/mixed_contrasts.csv,"signal domains, whole-only core",not cited (former fig4_whole_vs_mixed)
+N25,4.2,whole DP - seq (whole-GPU blocks),"-0.21 [-0.41, -0.03]",pp,results/aggregates/mixed/mixed_contrasts.csv,"signal domains, whole-only core",not cited (former fig4_whole_vs_mixed)
+N26,4.2,mixed / whole ratio of DP - aBF,3.0,x,results/aggregates/mixed/mixed_contrasts.csv,"ALL (different block boundaries, unpaired)",not cited (former fig4_whole_vs_mixed)
+N27,4.2,mixed / whole ratio of DP - seq,6.3,x,results/aggregates/mixed/mixed_contrasts.csv,"ALL (different block boundaries, unpaired)",not cited (former fig4_whole_vs_mixed)
+N28,4.3,cost of M DP: prev - oracle,"+0.09 [-0.01, +0.19]",pp,results/aggregates/mixed/mixed_contrasts.csv,"ALL, matched blocks",fig4_m_cost
+N29,4.3,cost of M DP: prev - oracle by domain,+0.05/+0.14/+0.20,pp,results/aggregates/mixed/mixed_contrasts.csv,MISC/V100/V100M32,fig4_m_cost
+N30,4.3,cost of M seq: prev - oracle,"+0.11 [-0.10, +0.36]",pp,results/aggregates/mixed/mixed_contrasts.csv,"ALL, matched blocks",fig4_m_cost
+N31,4.3,cost of M seq: prev - oracle by domain,-0.13/+1.00/-0.03,pp,results/aggregates/mixed/mixed_contrasts.csv,MISC/V100/V100M32,fig4_m_cost
+N32,4.3,cost of M DP: uniform - oracle,"-0.44 [-0.63, -0.24]",pp,results/aggregates/mixed/mixed_contrasts.csv,"ALL, matched blocks",fig4_m_cost
+N33,4.3,cost of M DP: uniform - oracle by domain,-0.90/+0.67/+0.06,pp,results/aggregates/mixed/mixed_contrasts.csv,MISC/V100/V100M32,fig4_m_cost
+N34,4.3,cost of M seq: uniform - oracle,"+1.36 [+1.12, +1.59]",pp,results/aggregates/mixed/mixed_contrasts.csv,"ALL, matched blocks",fig4_m_cost
+N35,4.3,cost of M seq: uniform - oracle by domain,+1.68/+1.77/-0.48,pp,results/aggregates/mixed/mixed_contrasts.csv,MISC/V100/V100M32,fig4_m_cost
+N36,4.3,unalloc@100 DP: oracle / prev / uniform M,6.63 / 6.72 / 6.20,%,results/aggregates/mixed/mixed_m_levels.csv,"ALL, blocks with all six M arms (n=773)",fig4_m_cost
+N37,4.3,unalloc@100 seq: oracle / prev / uniform M,7.96 / 8.06 / 9.33,%,results/aggregates/mixed/mixed_m_levels.csv,"ALL, blocks with all six M arms (n=773)",fig4_m_cost
+N38,1,"gangs share of GPU demand (whole trace, 5 domains)",79.4,%,results/aggregates/mixed/pai_trace_stats.csv,"mixed filter, 5 domains",text 1
+N39,1,"fractional gangs share of gang GPU demand (whole trace, 5 domains)",51.9,%,results/aggregates/mixed/pai_trace_stats.csv,"mixed filter, 5 domains",text 1
+N40,4.2,F1 sanity: max |DP - seq| with all gangs split into singles,0.00,pp,results/aggregates/f1/f1_contrasts.csv,"MISC/V100/V100M32, every block",text 4.2.1
+N41,4.2,"F1 DP - seq, fractional gangs split (ALL)","-0.36 [-0.50, -0.23]",pp,results/aggregates/f1/f1_contrasts.csv,"ALL, 778 mixed blocks, oracle M",text 4.2.1
+N42,4.2,"F1 DP - seq, fractional gangs split by domain",-0.38/-0.43/-0.21,pp,results/aggregates/f1/f1_contrasts.csv,MISC/V100/V100M32,text 4.2.1
+N43,4.2,"F1 DP - seq, whole gangs split (ALL)","-1.00 [-1.18, -0.82]",pp,results/aggregates/f1/f1_contrasts.csv,"ALL, 778 mixed blocks, oracle M",text 4.2.1
+N44,4.2,"F1 DP - seq, whole gangs split by domain",-1.17/-0.96/-0.36,pp,results/aggregates/f1/f1_contrasts.csv,MISC/V100/V100M32,text 4.2.1
+N45,4.2,"F1 DP - seq, fractional gangs split, FGD background (ALL)","+0.18 [+0.02, +0.33]",pp,results/aggregates/f1/f1_contrasts.csv,"ALL, 778 mixed blocks, oracle M",text 4.2.1
+N46,4.2,"F1 DP - seq, fractional gangs split, FGD background by domain",+0.46/-0.42/-0.22,pp,results/aggregates/f1/f1_contrasts.csv,MISC/V100/V100M32,text 4.2.1
+N47,4.2,F1 part of DP - seq due to fractional gangs (ALL),"-0.96 [-1.13, -0.79]",pp,results/aggregates/f1/f1_contrasts.csv,"ALL, matched blocks",text 4.2.1
+N48,4.2,"F1 share of DP - seq due to fractional gangs, ALL / MISC / V100 / V100M32",73 / 76 / 57 / 75,%,results/aggregates/f1/f1_contrasts.csv,share of G(full) on the same blocks,text 4.2.1
+N49,4.2,F1 part of DP - seq due to whole gangs (ALL),"-0.32 [-0.46, -0.18]",pp,results/aggregates/f1/f1_contrasts.csv,"ALL, matched blocks",text 4.2.1
+N50,4.2,"F1 share of DP - seq due to whole gangs, ALL / MISC / V100 / V100M32",24 / 25 / 3 / 56,%,results/aggregates/f1/f1_contrasts.csv,share of G(full) on the same blocks,text 4.2.1
+N51,4.2,F1 change of DP - seq with FGD background (ALL),"+0.54 [+0.40, +0.68]",pp,results/aggregates/f1/f1_contrasts.csv,"ALL, matched blocks",text 4.2.1
+N52,4.2,F1 change of DP - seq with FGD background by domain,+0.84/+0.01/-0.02,pp,results/aggregates/f1/f1_contrasts.csv,MISC/V100/V100M32,text 4.2.1
+N53,4.2,F1 seq - aBF: full minus all gangs split (ALL),"-0.02 [-0.14, +0.08]",pp,results/aggregates/f1/f1_contrasts.csv,"ALL, matched blocks",text 4.2.1
+N54,4.4,"P100 unalloc@100, all policies (control)",1.36,%,results/aggregates/pai_l1_v2/pai_l1_v2_all_cells.csv,"stage=core, P100, max-min over 5 policies = 0.000",text 4.4
+N55,4.4,"T4 unalloc@100, all policies (control)",0.69,%,results/aggregates/pai_l1_v2/pai_l1_v2_all_cells.csv,"stage=core, T4, max-min over 5 policies = 0.000",text 4.4
